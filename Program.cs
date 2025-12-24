@@ -1,18 +1,17 @@
 ﻿using sem3laba3;
-using System;
 using sem3laba3.Cards;
-using sem3laba3.Creatures;
+using sem3laba3.Cards.Creatures;
 using sem3laba3.Spells;
+using System;
+using System.Collections.Generic;
 
 namespace laba3
 {
-    class Programm
+    class Program
     {
-        static void Main(string[] argc)
+        static void Main(string[] args)
         {
-            
 
-            
         }
     }
 }

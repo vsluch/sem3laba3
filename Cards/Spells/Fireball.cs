@@ -3,19 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using sem3laba3.Creatures;
+using sem3laba3.Cards;
+using sem3laba3.Cards.Creatures;
 
 namespace sem3laba3.Spells
 {
     public class Fireball : Spell
     {
-        public Fireball() : base(3) { }
+        public Fireball() : base(GameBalanceStats.Fireball.Strenght) { }
 
-        public override void Act(List<Creature> enemy_army)
+        public override void Act(List<IBattleable> enemy_army)
         {
-            foreach (Creature creature in enemy_army)
+            foreach (IBattleable unit in enemy_army)
             {
-                creature.TakeDamage(Strenght);
+                unit.TakeDamage(Strenght);
             }
         }
     }

@@ -8,7 +8,19 @@ namespace sem3laba3.Cards
 {
     public abstract class Card
     {
-        public int Power { get; protected set; }
+        private int _power;
+        public int Power
+        {
+            get { return _power; }
+            protected set
+            {
+                if(value <= 0)
+                {
+                    throw new ArgumentOutOfRangeException("Некорректное значение мощности");
+                }
+                _power = value;
+            }
+        }
 
         // public abstract void Play();
     }
