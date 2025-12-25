@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using sem3laba3.Cards;
 using sem3laba3.Cards.Creatures;
+using sem3laba3.Cards.Spells;
 
 namespace sem3laba3.Spells
 {

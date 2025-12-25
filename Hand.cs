@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Threading.Tasks;
 using sem3laba3.Cards;
@@ -10,31 +11,58 @@ namespace sem3laba3
 {
     public class Hand
     {
-        private List<Card> cards;
-        public int HandPower { get; private set; }
+        private List<Card> _cards;
+        private int _handPower;
+        public int HandPower
+        {
+            get {  return _handPower; }
+            private set
+            {
+                if(value < 0)
+                {
+                    throw new ArgumentOutOfRangeException("Некорректное значение мощности руки");
+                }
+                _handPower = value;
+            }
+        }
+
+        public int Count => _cards.Count;
+        public bool IsEmpty => _cards.Count == 0;
+
 
         public Hand()
         {
-            cards = new List<Card>();
+            _cards = new List<Card>();
             HandPower = 0;
         }
 
         public void Add(Card card)
         {
-            cards.Add(card);
+            if(card == null)
+            {
+                throw new ArgumentNullException("Некорректное значение карты");
+            }
+            _cards.Add(card);
             HandPower += card.Power;
         }
 
-        public Card ThrowAway(Card card)
+        public Card RemoveAt(int index)
         {
-            if (cards.Contains(card))
-            {
-                cards.Remove(card);
-                HandPower -= card.Power;
-                return card;
-            }
-            return null;    // надо грамотно доделать
+            var card = GetCard(index);
+            _cards.RemoveAt(index);
+            HandPower -= card.Power;
+            return card;
         }
 
+        public Card GetCard(int index)
+        {
+            if(index < 0 || index >= _cards.Count)
+            {
+                throw new ArgumentOutOfRangeException("Некорректный индекс карты");
+            }
+            return _cards[index];
+        }
+
+        public List<Card> GetAllCards() => new List<Card>(_cards);
     }
 }

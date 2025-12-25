@@ -94,6 +94,8 @@ namespace sem3laba3.Cards.Creatures
 
         public int GetDamage() { return Damage; }
 
+        public abstract Creature Clone();
+
 
 
         // для тестирования

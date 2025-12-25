@@ -12,5 +12,10 @@ namespace sem3laba3.Cards.Creatures
     {
         public Knight() : 
             base(GameBalanceStats.Knight.HP, GameBalanceStats.Knight.Damage, new KnightDamageStrategy()) { }
+
+        public override Creature Clone()
+        {
+            return new Knight();
+        }
     }
 }

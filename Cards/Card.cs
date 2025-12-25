@@ -21,7 +21,5 @@ namespace sem3laba3.Cards
                 _power = value;
             }
         }
-
-        // public abstract void Play();
     }
 }

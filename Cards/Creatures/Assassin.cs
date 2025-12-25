@@ -12,5 +12,10 @@ namespace sem3laba3.Cards.Creatures
     {
         public Assassin() : 
             base(GameBalanceStats.Assassin.HP, GameBalanceStats.Assassin.Damage, new AssassinDamageStrategy()) { }
+
+        public override Creature Clone()
+        {
+            return new Assassin();
+        }
     }
 }

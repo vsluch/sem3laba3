@@ -10,5 +10,10 @@ namespace sem3laba3.Cards.Creatures
     {
         public Wizard() : 
             base(GameBalanceStats.Wizard.HP, GameBalanceStats.Wizard.Damage, new WizardDamageStrategy()) { }
+
+        public override Creature Clone()
+        {
+            return new Wizard();
+        }
     }
 }

@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using sem3laba3.Cards.Creatures;
 
-namespace sem3laba3.Spells
+namespace sem3laba3.Cards.Spells
 {
     public abstract class Spell : Card
     {

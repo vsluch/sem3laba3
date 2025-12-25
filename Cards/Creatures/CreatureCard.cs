@@ -8,12 +8,17 @@ namespace sem3laba3.Cards.Creatures
 {
     public class CreatureCard : Card    // карта существа
     {
-        private Creature _creature;
+        private Creature _prototype;
 
-        public CreatureCard(Creature creature)
+        public CreatureCard(Creature prototype)
         {
-            _creature = creature;
-            Power = _creature.Damage + _creature.MaxHP;
+            _prototype = prototype;
+            Power = _prototype.Damage + _prototype.MaxHP;
+        }
+
+        public Creature CreateCreature()
+        {
+            return _prototype.Clone();
         }
     }
 }
