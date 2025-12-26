@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -38,6 +39,11 @@ namespace sem3laba3.Cards
         public static class HeallSpell
         {
             public const int Strenght = 4;
+        }
+
+        public static class Market
+        {
+            public const int MaxHandPower = 100;
         }
     }
 }

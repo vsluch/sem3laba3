@@ -15,9 +15,10 @@ namespace sem3laba3
 
         public void Start()
         {
+            GameBoard = new Board();
+
             Player1 = new Player(1);
             Player2 = new Player(2);
-            GameBoard = new Board();
             ActivePlayer = Player1;
         }
 
