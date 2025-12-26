@@ -5,7 +5,6 @@ using System.Linq;
 using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
-using sem3laba3.Cards;
 using sem3laba3.Spells;
 
 
@@ -35,7 +34,7 @@ namespace sem3laba3.Cards.Creatures
             {
                 if(value < 0)
                 {
-                    throw new ArgumentOutOfRangeException("Некорректное значение очков здоровья");
+                    _hp = 0;
                 }
                 _hp = value;
             }
@@ -47,7 +46,7 @@ namespace sem3laba3.Cards.Creatures
             get { return _maxhp; }
             private set
             {
-                if (value < 0)
+                if (value <= 0)
                 {
                     throw new ArgumentOutOfRangeException("Некорректное значение очков полного здоровья");
                 }
@@ -69,7 +68,6 @@ namespace sem3laba3.Cards.Creatures
         public void TakeDamage(int damageTaken)
         {
             HP -= damageTaken;
-            if(HP < 0) HP = 0;
         }
 
         public virtual void Hit(IBattleable target)

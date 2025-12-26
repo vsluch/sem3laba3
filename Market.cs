@@ -1,6 +1,5 @@
 ﻿using sem3laba3.Cards;
 using sem3laba3.Cards.Creatures;
-using sem3laba3.Cards.Spells;
 using sem3laba3.Spells;
 using System;
 using System.Collections.Generic;
@@ -12,8 +11,8 @@ namespace sem3laba3
 {
     public class Market
     {
-        private List<Card> _availableCards; // доспупные карты
-        private int _maxHandPower;
+        private List<Card> _availableCards; // доступные карты
+        private readonly int _maxHandPower;
 
         public Market()
         {
@@ -24,6 +23,7 @@ namespace sem3laba3
 
         private void InitializeMarket()
         {
+            // Создаем пул карт для маркета
             for (int i = 0; i < 5; i++)
             {
                 _availableCards.Add(new CreatureCard(new Knight()));
@@ -39,7 +39,6 @@ namespace sem3laba3
             }
         }
 
-
         public List<Card> GetAvailableCards()
         {
             return new List<Card>(_availableCards);
@@ -47,7 +46,7 @@ namespace sem3laba3
 
         public void RemoveCard(Card card)
         {
-            if(card == null)
+            if (card == null)
             {
                 throw new ArgumentNullException("Некорректная карта");
             }

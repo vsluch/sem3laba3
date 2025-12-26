@@ -1,0 +1,46 @@
+﻿<Window x:Class="sem3laba3.StartWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Карточная Игра - Старт" 
+        Height="300" 
+        Width="400"
+        WindowStartupLocation="CenterScreen"
+        Background="White">
+
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Text="КАРТОЧНАЯ ИГРА" 
+                       FontSize="24" 
+                       FontWeight="Bold" 
+                       Foreground="DarkBlue"
+                       HorizontalAlignment="Center"
+                       Margin="0,0,0,30"/>
+
+            <Button x:Name="NewGameButton" 
+                    Content="Начать новую игру" 
+                    Click="NewGameButton_Click" 
+                    Width="200" 
+                    Height="50" 
+                    Margin="0,0,0,15"
+                    FontSize="16"
+                    FontWeight="Bold"/>
+
+            <Button x:Name="LoadGameButton" 
+                    Content="Загрузить игру" 
+                    Click="LoadGameButton_Click" 
+                    Width="200" 
+                    Height="50" 
+                    Margin="0,0,0,15"
+                    FontSize="16"
+                    FontWeight="Bold"
+                    IsEnabled="True"/>
+
+            <Button x:Name="ExitButton" 
+                    Content="Выход" 
+                    Click="ExitButton_Click" 
+                    Width="200" 
+                    Height="40"
+                    FontSize="14"/>
+        </StackPanel>
+    </Grid>
+</Window>

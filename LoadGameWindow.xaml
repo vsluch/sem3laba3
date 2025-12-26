@@ -1,0 +1,55 @@
+﻿<Window x:Class="sem3laba3.LoadGameWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Загрузка сохранения" 
+        Height="500" 
+        Width="700"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Заголовок -->
+        <TextBlock Grid.Row="0" Text="Сохраненные игры" 
+                   FontSize="20" FontWeight="Bold" 
+                   HorizontalAlignment="Center" Margin="0,0,0,10"/>
+
+        <!-- Список сохранений -->
+        <Border Grid.Row="1" BorderBrush="Gray" BorderThickness="1" Padding="5">
+            <ListView x:Name="SavesListView" SelectionMode="Single">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Название" Width="200" 
+                                        DisplayMemberBinding="{Binding DisplayName}"/>
+                        <GridViewColumn Header="Дата" Width="120" 
+                                        DisplayMemberBinding="{Binding LastModified, StringFormat=dd.MM.yyyy HH:mm}"/>
+                        <GridViewColumn Header="Размер" Width="80" 
+                                        DisplayMemberBinding="{Binding SizeFormatted}"/>
+                        <GridViewColumn Header="Ход" Width="60" 
+                                        DisplayMemberBinding="{Binding TurnNumber}"/>
+                        <GridViewColumn Header="Игрок 1" Width="120" 
+                                        DisplayMemberBinding="{Binding Player1Name}"/>
+                        <GridViewColumn Header="Игрок 2" Width="120" 
+                                        DisplayMemberBinding="{Binding Player2Name}"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </Border>
+
+        <!-- Кнопки управления -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
+            <Button x:Name="DeleteButton" Content="Удалить" 
+                    Click="DeleteButton_Click" Width="80" Height="30" Margin="0,0,10,0"/>
+            <Button x:Name="RefreshButton" Content="Обновить" 
+                    Click="RefreshButton_Click" Width="80" Height="30" Margin="0,0,10,0"/>
+            <Button x:Name="LoadButton" Content="Загрузить" 
+                    Click="LoadButton_Click" Width="80" Height="30" Margin="0,0,10,0"/>
+            <Button x:Name="CancelButton" Content="Отмена" 
+                    Click="CancelButton_Click" Width="80" Height="30"/>
+        </StackPanel>
+    </Grid>
+</Window>

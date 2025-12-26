@@ -44,8 +44,17 @@ namespace sem3laba3
 
         public void RemoveDeadCreatures()   // Удаление мертвых
         {
-            Player1Army.RemoveAll(c => c is Creature creature && creature.HP <= 0);
-            Player2Army.RemoveAll(c => c is Creature creature && creature.HP <= 0);
+            var deadCreatures1 = Player1Army.Where(c => c is Creature creature && creature.HP <= 0).ToList();
+            var deadCreatures2 = Player2Army.Where(c => c is Creature creature && creature.HP <= 0).ToList();
+
+            foreach (var creature in deadCreatures1)
+            {
+                Player1Army.Remove(creature);
+            }
+            foreach (var creature in deadCreatures2)
+            {
+                Player2Army.Remove(creature);
+            }
         }
 
         public bool HasArmy(int playerNumber)

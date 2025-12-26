@@ -36,7 +36,7 @@ namespace sem3laba3.Cards
         {
             public const int Strenght = 2;
         }
-        public static class HeallSpell
+        public static class HealSpell
         {
             public const int Strenght = 4;
         }

@@ -74,6 +74,7 @@ namespace sem3laba3
                 PlayerHand.RemoveAt(indexInHand);
                 return creatureCard.CreateCreature();
             }
+            ActionsRemaining++;
             throw new InvalidOperationException("Это не карта существа");
         }
 

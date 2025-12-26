@@ -1,0 +1,324 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vsluc\\Documents\\sem3laba3\\sem3laba3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{037DDAB1-6D76-9301-16B4-F83ABD7E184A}|sem3laba3.csproj|c:\\users\\vsluc\\documents\\sem3laba3\\sem3laba3\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{037DDAB1-6D76-9301-16B4-F83ABD7E184A}|sem3laba3.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037DDAB1-6D76-9301-16B4-F83ABD7E184A}|sem3laba3.csproj|c:\\users\\vsluc\\documents\\sem3laba3\\sem3laba3\\loadgamewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{037DDAB1-6D76-9301-16B4-F83ABD7E184A}|sem3laba3.csproj|solutionrelative:loadgamewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037DDAB1-6D76-9301-16B4-F83ABD7E184A}|sem3laba3.csproj|c:\\users\\vsluc\\documents\\sem3laba3\\sem3laba3\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{037DDAB1-6D76-9301-16B4-F83ABD7E184A}|sem3laba3.csproj|solutionrelative:game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037DDAB1-6D76-9301-16B4-F83ABD7E184A}|sem3laba3.csproj|c:\\users\\vsluc\\documents\\sem3laba3\\sem3laba3\\startwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{037DDAB1-6D76-9301-16B4-F83ABD7E184A}|sem3laba3.csproj|solutionrelative:startwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037DDAB1-6D76-9301-16B4-F83ABD7E184A}|sem3laba3.csproj|c:\\users\\vsluc\\documents\\sem3laba3\\sem3laba3\\startwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{037DDAB1-6D76-9301-16B4-F83ABD7E184A}|sem3laba3.csproj|solutionrelative:startwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037DDAB1-6D76-9301-16B4-F83ABD7E184A}|sem3laba3.csproj|c:\\users\\vsluc\\documents\\sem3laba3\\sem3laba3\\loadgamewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{037DDAB1-6D76-9301-16B4-F83ABD7E184A}|sem3laba3.csproj|solutionrelative:loadgamewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037DDAB1-6D76-9301-16B4-F83ABD7E184A}|sem3laba3.csproj|c:\\users\\vsluc\\documents\\sem3laba3\\sem3laba3\\marketwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{037DDAB1-6D76-9301-16B4-F83ABD7E184A}|sem3laba3.csproj|solutionrelative:marketwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037DDAB1-6D76-9301-16B4-F83ABD7E184A}|sem3laba3.csproj|c:\\users\\vsluc\\documents\\sem3laba3\\sem3laba3\\savemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{037DDAB1-6D76-9301-16B4-F83ABD7E184A}|sem3laba3.csproj|solutionrelative:savemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037DDAB1-6D76-9301-16B4-F83ABD7E184A}|sem3laba3.csproj|c:\\users\\vsluc\\documents\\sem3laba3\\sem3laba3\\cards\\creatures\\creature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{037DDAB1-6D76-9301-16B4-F83ABD7E184A}|sem3laba3.csproj|solutionrelative:cards\\creatures\\creature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037DDAB1-6D76-9301-16B4-F83ABD7E184A}|sem3laba3.csproj|c:\\users\\vsluc\\documents\\sem3laba3\\sem3laba3\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{037DDAB1-6D76-9301-16B4-F83ABD7E184A}|sem3laba3.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037DDAB1-6D76-9301-16B4-F83ABD7E184A}|sem3laba3.csproj|c:\\users\\vsluc\\documents\\sem3laba3\\sem3laba3\\market.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{037DDAB1-6D76-9301-16B4-F83ABD7E184A}|sem3laba3.csproj|solutionrelative:market.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037DDAB1-6D76-9301-16B4-F83ABD7E184A}|sem3laba3.csproj|c:\\users\\vsluc\\documents\\sem3laba3\\sem3laba3\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{037DDAB1-6D76-9301-16B4-F83ABD7E184A}|sem3laba3.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037DDAB1-6D76-9301-16B4-F83ABD7E184A}|sem3laba3.csproj|c:\\users\\vsluc\\documents\\sem3laba3\\sem3laba3\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{037DDAB1-6D76-9301-16B4-F83ABD7E184A}|sem3laba3.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037DDAB1-6D76-9301-16B4-F83ABD7E184A}|sem3laba3.csproj|c:\\users\\vsluc\\documents\\sem3laba3\\sem3laba3\\marketwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{037DDAB1-6D76-9301-16B4-F83ABD7E184A}|sem3laba3.csproj|solutionrelative:marketwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037DDAB1-6D76-9301-16B4-F83ABD7E184A}|sem3laba3.csproj|c:\\users\\vsluc\\documents\\sem3laba3\\sem3laba3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{037DDAB1-6D76-9301-16B4-F83ABD7E184A}|sem3laba3.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037DDAB1-6D76-9301-16B4-F83ABD7E184A}|sem3laba3.csproj|c:\\users\\vsluc\\documents\\sem3laba3\\sem3laba3\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{037DDAB1-6D76-9301-16B4-F83ABD7E184A}|sem3laba3.csproj|solutionrelative:gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{037DDAB1-6D76-9301-16B4-F83ABD7E184A}|sem3laba3.csproj|c:\\users\\vsluc\\documents\\sem3laba3\\sem3laba3\\cards\\gamebalancestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{037DDAB1-6D76-9301-16B4-F83ABD7E184A}|sem3laba3.csproj|solutionrelative:cards\\gamebalancestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 24,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoadGameWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\vsluc\\Documents\\sem3laba3\\sem3laba3\\LoadGameWindow.xaml.cs",
+              "RelativeDocumentMoniker": "LoadGameWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\vsluc\\Documents\\sem3laba3\\sem3laba3\\LoadGameWindow.xaml.cs",
+              "RelativeToolTip": "LoadGameWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T16:38:51.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoadGameWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\vsluc\\Documents\\sem3laba3\\sem3laba3\\LoadGameWindow.xaml",
+              "RelativeDocumentMoniker": "LoadGameWindow.xaml",
+              "ToolTip": "C:\\Users\\vsluc\\Documents\\sem3laba3\\sem3laba3\\LoadGameWindow.xaml",
+              "RelativeToolTip": "LoadGameWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-26T16:38:17.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SaveManager.cs",
+              "DocumentMoniker": "C:\\Users\\vsluc\\Documents\\sem3laba3\\sem3laba3\\SaveManager.cs",
+              "RelativeDocumentMoniker": "SaveManager.cs",
+              "ToolTip": "C:\\Users\\vsluc\\Documents\\sem3laba3\\sem3laba3\\SaveManager.cs",
+              "RelativeToolTip": "SaveManager.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAywHUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T16:36:59.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StartWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\vsluc\\Documents\\sem3laba3\\sem3laba3\\StartWindow.xaml.cs",
+              "RelativeDocumentMoniker": "StartWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\vsluc\\Documents\\sem3laba3\\sem3laba3\\StartWindow.xaml.cs",
+              "RelativeToolTip": "StartWindow.xaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T15:50:21.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StartWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\vsluc\\Documents\\sem3laba3\\sem3laba3\\StartWindow.xaml",
+              "RelativeDocumentMoniker": "StartWindow.xaml",
+              "ToolTip": "C:\\Users\\vsluc\\Documents\\sem3laba3\\sem3laba3\\StartWindow.xaml",
+              "RelativeToolTip": "StartWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-26T15:50:20.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Market.cs",
+              "DocumentMoniker": "C:\\Users\\vsluc\\Documents\\sem3laba3\\sem3laba3\\Market.cs",
+              "RelativeDocumentMoniker": "Market.cs",
+              "ToolTip": "C:\\Users\\vsluc\\Documents\\sem3laba3\\sem3laba3\\Market.cs",
+              "RelativeToolTip": "Market.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAQwEgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T15:23:33.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MarketWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\vsluc\\Documents\\sem3laba3\\sem3laba3\\MarketWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MarketWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\vsluc\\Documents\\sem3laba3\\sem3laba3\\MarketWindow.xaml.cs",
+              "RelativeToolTip": "MarketWindow.xaml.cs",
+              "ViewState": "AgIAAEABAAAAAAAAAAAgwFABAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T13:51:49.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\vsluc\\Documents\\sem3laba3\\sem3laba3\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\vsluc\\Documents\\sem3laba3\\sem3laba3\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowBoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T15:47:36.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\vsluc\\Documents\\sem3laba3\\sem3laba3\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\vsluc\\Documents\\sem3laba3\\sem3laba3\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-26T13:30:44.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MarketWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\vsluc\\Documents\\sem3laba3\\sem3laba3\\MarketWindow.xaml",
+              "RelativeDocumentMoniker": "MarketWindow.xaml",
+              "ToolTip": "C:\\Users\\vsluc\\Documents\\sem3laba3\\sem3laba3\\MarketWindow.xaml",
+              "RelativeToolTip": "MarketWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-26T13:30:17.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GameState.cs",
+              "DocumentMoniker": "C:\\Users\\vsluc\\Documents\\sem3laba3\\sem3laba3\\GameState.cs",
+              "RelativeDocumentMoniker": "GameState.cs",
+              "ToolTip": "C:\\Users\\vsluc\\Documents\\sem3laba3\\sem3laba3\\GameState.cs",
+              "RelativeToolTip": "GameState.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAmwIoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T13:27:43.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Creature.cs",
+              "DocumentMoniker": "C:\\Users\\vsluc\\Documents\\sem3laba3\\sem3laba3\\Cards\\Creatures\\Creature.cs",
+              "RelativeDocumentMoniker": "Cards\\Creatures\\Creature.cs",
+              "ToolTip": "C:\\Users\\vsluc\\Documents\\sem3laba3\\sem3laba3\\Cards\\Creatures\\Creature.cs",
+              "RelativeToolTip": "Cards\\Creatures\\Creature.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T11:43:50.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\vsluc\\Documents\\sem3laba3\\sem3laba3\\Player.cs",
+              "RelativeDocumentMoniker": "Player.cs",
+              "ToolTip": "C:\\Users\\vsluc\\Documents\\sem3laba3\\sem3laba3\\Player.cs",
+              "RelativeToolTip": "Player.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAAwHEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T11:20:31.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GameBalanceStats.cs",
+              "DocumentMoniker": "C:\\Users\\vsluc\\Documents\\sem3laba3\\sem3laba3\\Cards\\GameBalanceStats.cs",
+              "RelativeDocumentMoniker": "Cards\\GameBalanceStats.cs",
+              "ToolTip": "C:\\Users\\vsluc\\Documents\\sem3laba3\\sem3laba3\\Cards\\GameBalanceStats.cs",
+              "RelativeToolTip": "Cards\\GameBalanceStats.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwCsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T11:14:08.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\vsluc\\Documents\\sem3laba3\\sem3laba3\\Game.cs",
+              "RelativeDocumentMoniker": "Game.cs",
+              "ToolTip": "C:\\Users\\vsluc\\Documents\\sem3laba3\\sem3laba3\\Game.cs",
+              "RelativeToolTip": "Game.cs",
+              "ViewState": "AgIAAHsBAAAAAAAAAAAQwHABAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T10:41:49.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\vsluc\\Documents\\sem3laba3\\sem3laba3\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\vsluc\\Documents\\sem3laba3\\sem3laba3\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAGcBAAAAAAAAAAAUwAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T10:16:49.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\vsluc\\Documents\\sem3laba3\\sem3laba3\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\vsluc\\Documents\\sem3laba3\\sem3laba3\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-26T10:16:40.617Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -11,7 +11,7 @@ namespace sem3laba3.Spells
 {
     public class HealSpell : Spell
     {
-        public HealSpell() : base(GameBalanceStats.HeallSpell.Strenght) { }
+        public HealSpell() : base(GameBalanceStats.HealSpell.Strenght) { }
 
         public override void Act(List<IBattleable> enemy_army)
         {

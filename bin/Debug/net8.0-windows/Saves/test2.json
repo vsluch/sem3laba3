@@ -1,0 +1,45 @@
+{
+  "Player1State": {
+    "PlayerNumber": 1,
+    "Hand": [
+      {
+        "Type": "Creature",
+        "Power": 20,
+        "CreatureType": "Knight",
+        "Damage": 4,
+        "HP": 16,
+        "SpellStrength": 0
+      },
+      {
+        "Type": "Creature",
+        "Power": 14,
+        "CreatureType": "Assassin",
+        "Damage": 6,
+        "HP": 8,
+        "SpellStrength": 0
+      }
+    ],
+    "ActionsRemaining": 2
+  },
+  "Player2State": {
+    "PlayerNumber": 2,
+    "Hand": [
+      {
+        "Type": "Creature",
+        "Power": 13,
+        "CreatureType": "Wizard",
+        "Damage": 5,
+        "HP": 8,
+        "SpellStrength": 0
+      }
+    ],
+    "ActionsRemaining": 0
+  },
+  "BoardState": {
+    "Player1Army": [],
+    "Player2Army": []
+  },
+  "CurrentPlayerNumber": 1,
+  "TurnNumber": 1,
+  "GameStarted": true
+}
